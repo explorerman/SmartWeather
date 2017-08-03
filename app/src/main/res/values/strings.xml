@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SmartWeather</string>
+    <string name="nav_city">选择城市</string>
+    <string name="nav_multi_cities">多城市管理</string>
+    <string name="nav_set">设置</string>
+    <string name="nav_about">关于</string>
+    <string name="toolbar_name">智能天气</string>>
+    <string name="login">LOGIN</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="go">GO</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="register">REGISTER</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+    <string name="details">姓名：李杰 和 王姜闻 学号：31609080 和 31609088</string>>
+</resources>

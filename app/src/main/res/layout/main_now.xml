@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+
+    <RelativeLayout
+        android:id="@+id/main_now_weather"
+        android:paddingTop="30dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:layout_toLeftOf="@+id/linear_temp">
+            <!--<ImageView-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:src="@mipmap/type_one_sunny"-->
+                <!--android:id="@+id/weather_icon"-->
+                <!--android:layout_marginLeft="@+id/weather_icon_text"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="80dp"/>-->
+            <ImageView
+                android:layout_marginTop="8dp"
+                android:src="@mipmap/type_one_sunny"
+                android:id="@+id/weather_icon"
+                android:layout_toLeftOf="@+id/weather_icon_text"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+
+            <TextView
+                android:id="@+id/weather_icon_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="晴天"
+                android:textSize="25dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_temp"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/temp_flu"
+                android:layout_toLeftOf="@+id/temp_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50sp"
+                android:text="30"
+                />
+
+            <LinearLayout
+                android:id="@+id/temp_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                    <ImageView
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/temp_high"
+                        android:id="@+id/first_icon"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"/>
+                    <TextView
+                        android:textColor="#BDBDBD"
+                        android:id="@+id/temp_max"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20"
+                        />
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                    <ImageView
+                        android:layout_marginTop="25dp"
+                        android:src="@drawable/temp_low"
+                        android:id="@+id/second_icon"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"/>
+                    <TextView
+                        android:textColor="#BDBDBD"
+                        android:id="@+id/temp_min"
+                        android:textSize="18sp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="right"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="6dp"
+            android:layout_below="@+id/linear_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/temp_pm"
+                android:layout_marginRight="24dp"
+                android:textColor="#BDBDBD"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="222"
+                />
+
+            <TextView
+                android:id="@+id/temp_quality"
+                android:textColor="#BDBDBD"
+                android:layout_marginRight="12dp"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="111"
+                />
+            <TextView
+                android:id="@+id/last_upate_text"
+                android:textColor="#BDBDBD"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="--:-- --"
+                android:textSize="12sp" />
+                <!--android:textColor="@color/md_blue_grey_900_color_code"-->
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

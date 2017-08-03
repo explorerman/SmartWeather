@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--多城市列表和卡片配色-->
+    <color name="multi_text">#C1C1C1</color>
+    <color name="multi_content">#696969</color>
+
+    <color name="sunnyText">#A88418</color>
+    <color name="sunny">#FFE498</color>
+    <color name="sunnyDark">#FFC000</color>
+
+    <color name="cloudyText">#728288</color>
+    <color name="cloudy">#D2E0E6</color>
+    <color name="cloudyDark">#A4BCC6</color>
+
+    <color name="rainyText">#035E8E</color>
+    <color name="rainy">#B2E8FE</color>
+    <color name="rainyDark">#58D2FA</color>
+
+    <color name="lineColor">#60d3d3d3</color>
+    <color name="defaultTextColor">#6f6f6f</color>
+    <color name="tabLayout">#10e9d3</color>>
+
+
+    <!--颜色-->
+    <color name="green_pressed">#30A070</color>
+    <color name="green_normal">#37C000</color>
+
+    <color name="red_normal">#FF0000</color>
+    <color name="red_pressed">#FF6666</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_pressed">#FFCFCFCF</color>
+
+    <color name="md_blue_grey_900_color_code">#263238</color>
+    <!-- grey -->
+    <color name="md_grey_50_color_code">#fafafa</color>
+    <color name="md_grey_100_color_code">#f5f5f5</color>
+    <color name="md_grey_200_color_code">#eeeeee</color>
+    <color name="md_grey_300_color_code">#e0e0e0</color>
+    <color name="md_grey_400_color_code">#bdbdbd</color>
+    <color name="md_grey_500_color_code">#9e9e9e</color>
+    <color name="md_grey_600_color_code">#757575</color>
+    <color name="md_grey_700_color_code">#616161</color>
+    <color name="md_grey_800_color_code">#424242</color>
+    <color name="md_grey_900_color_code">#212121</color>
+    <color name="md_black_color_code">#000000</color>
+    <color name="md_white_color_code">#ffffff</color>
+
+</resources>
